@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "firstviewcontroller.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //FirstViewController *fVc = [[FirstViewController alloc ]init];
+    LoginViewController *lVc = [[LoginViewController alloc] init];
+    [[self window] setRootViewController:lVc];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
