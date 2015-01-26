@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FDE2D781A7687A400FD4538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2D771A7687A400FD4538 /* main.m */; };
-		8FDE2D7B1A7687A400FD4538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2D7A1A7687A400FD4538 /* AppDelegate.m */; };
-		8FDE2D7E1A7687A400FD4538 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2D7D1A7687A400FD4538 /* FirstViewController.m */; };
-		8FDE2D811A7687A400FD4538 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2D801A7687A400FD4538 /* SecondViewController.m */; };
-		8FDE2D841A7687A400FD4538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2D821A7687A400FD4538 /* Main.storyboard */; };
-		8FDE2D861A7687A400FD4538 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2D851A7687A400FD4538 /* Images.xcassets */; };
-		8FDE2D891A7687A400FD4538 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2D871A7687A400FD4538 /* LaunchScreen.xib */; };
 		8FDE2D951A7687A400FD4538 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2D941A7687A400FD4538 /* weiboTests.m */; };
+		8FDE2DA21A768A1D00FD4538 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2DA01A768A1D00FD4538 /* LoginViewController.xib */; };
+		8FDE2DB21A768EA500FD4538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2DA61A768EA500FD4538 /* AppDelegate.m */; };
+		8FDE2DB31A768EA500FD4538 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2DA71A768EA500FD4538 /* LaunchScreen.xib */; };
+		8FDE2DB41A768EA500FD4538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2DA91A768EA500FD4538 /* Main.storyboard */; };
+		8FDE2DB51A768EA500FD4538 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2DAC1A768EA500FD4538 /* FirstViewController.m */; };
+		8FDE2DB61A768EA500FD4538 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2DAD1A768EA500FD4538 /* Images.xcassets */; };
+		8FDE2DB71A768EA500FD4538 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE2DAE1A768EA500FD4538 /* Info.plist */; };
+		8FDE2DB81A768EA500FD4538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2DAF1A768EA500FD4538 /* main.m */; };
+		8FDE2DB91A768EA500FD4538 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2DB11A768EA500FD4538 /* SecondViewController.m */; };
+		8FDE2DBC1A768F7600FD4538 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2DBB1A768F7600FD4538 /* LoginViewController.m */; };
+		8FDE2DC11A7690AF00FD4538 /* WeiboClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE2DC01A7690AF00FD4538 /* WeiboClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,20 +33,25 @@
 
 /* Begin PBXFileReference section */
 		8FDE2D721A7687A400FD4538 /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FDE2D761A7687A400FD4538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FDE2D771A7687A400FD4538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FDE2D791A7687A400FD4538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8FDE2D7A1A7687A400FD4538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FDE2D7C1A7687A400FD4538 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8FDE2D7D1A7687A400FD4538 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8FDE2D7F1A7687A400FD4538 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8FDE2D801A7687A400FD4538 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8FDE2D831A7687A400FD4538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FDE2D851A7687A400FD4538 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8FDE2D881A7687A400FD4538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8FDE2D8E1A7687A400FD4538 /* weiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDE2D931A7687A400FD4538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDE2D941A7687A400FD4538 /* weiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboTests.m; sourceTree = "<group>"; };
+		8FDE2DA01A768A1D00FD4538 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8FDE2DA51A768EA500FD4538 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = weibo/AppDelegate.h; sourceTree = "<group>"; };
+		8FDE2DA61A768EA500FD4538 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = weibo/AppDelegate.m; sourceTree = "<group>"; };
+		8FDE2DA81A768EA500FD4538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8FDE2DAA1A768EA500FD4538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FDE2DAB1A768EA500FD4538 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8FDE2DAC1A768EA500FD4538 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8FDE2DAD1A768EA500FD4538 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = weibo/Images.xcassets; sourceTree = "<group>"; };
+		8FDE2DAE1A768EA500FD4538 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = weibo/Info.plist; sourceTree = "<group>"; };
+		8FDE2DAF1A768EA500FD4538 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = weibo/main.m; sourceTree = "<group>"; };
+		8FDE2DB01A768EA500FD4538 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8FDE2DB11A768EA500FD4538 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8FDE2DBA1A768F7600FD4538 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		8FDE2DBB1A768F7600FD4538 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		8FDE2DBF1A7690AF00FD4538 /* WeiboClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboClient.h; sourceTree = "<group>"; };
+		8FDE2DC01A7690AF00FD4538 /* WeiboClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +75,15 @@
 		8FDE2D691A7687A400FD4538 = {
 			isa = PBXGroup;
 			children = (
-				8FDE2D741A7687A400FD4538 /* weibo */,
+				8FDE2DA51A768EA500FD4538 /* AppDelegate.h */,
+				8FDE2DA61A768EA500FD4538 /* AppDelegate.m */,
+				8FDE2DA91A768EA500FD4538 /* Main.storyboard */,
+				8FDE2DA01A768A1D00FD4538 /* LoginViewController.xib */,
+				8FDE2DA71A768EA500FD4538 /* LaunchScreen.xib */,
+				8FDE2DAF1A768EA500FD4538 /* main.m */,
+				8FDE2DAE1A768EA500FD4538 /* Info.plist */,
+				8FDE2DAD1A768EA500FD4538 /* Images.xcassets */,
+				8FDE2DA41A768EA500FD4538 /* weibo */,
 				8FDE2D911A7687A400FD4538 /* weiboTests */,
 				8FDE2D731A7687A400FD4538 /* Products */,
 			);
@@ -79,32 +96,6 @@
 				8FDE2D8E1A7687A400FD4538 /* weiboTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8FDE2D741A7687A400FD4538 /* weibo */ = {
-			isa = PBXGroup;
-			children = (
-				8FDE2D791A7687A400FD4538 /* AppDelegate.h */,
-				8FDE2D7A1A7687A400FD4538 /* AppDelegate.m */,
-				8FDE2D7C1A7687A400FD4538 /* FirstViewController.h */,
-				8FDE2D7D1A7687A400FD4538 /* FirstViewController.m */,
-				8FDE2D7F1A7687A400FD4538 /* SecondViewController.h */,
-				8FDE2D801A7687A400FD4538 /* SecondViewController.m */,
-				8FDE2D821A7687A400FD4538 /* Main.storyboard */,
-				8FDE2D851A7687A400FD4538 /* Images.xcassets */,
-				8FDE2D871A7687A400FD4538 /* LaunchScreen.xib */,
-				8FDE2D751A7687A400FD4538 /* Supporting Files */,
-			);
-			path = weibo;
-			sourceTree = "<group>";
-		};
-		8FDE2D751A7687A400FD4538 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FDE2D761A7687A400FD4538 /* Info.plist */,
-				8FDE2D771A7687A400FD4538 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8FDE2D911A7687A400FD4538 /* weiboTests */ = {
@@ -122,6 +113,37 @@
 				8FDE2D931A7687A400FD4538 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FDE2DA41A768EA500FD4538 /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE2DBE1A768FCB00FD4538 /* ViewController */,
+				8FDE2DBD1A768FC100FD4538 /* Model */,
+			);
+			path = weibo;
+			sourceTree = "<group>";
+		};
+		8FDE2DBD1A768FC100FD4538 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE2DBF1A7690AF00FD4538 /* WeiboClient.h */,
+				8FDE2DC01A7690AF00FD4538 /* WeiboClient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDE2DBE1A768FCB00FD4538 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE2DBA1A768F7600FD4538 /* LoginViewController.h */,
+				8FDE2DAB1A768EA500FD4538 /* FirstViewController.h */,
+				8FDE2DAC1A768EA500FD4538 /* FirstViewController.m */,
+				8FDE2DBB1A768F7600FD4538 /* LoginViewController.m */,
+				8FDE2DB01A768EA500FD4538 /* SecondViewController.h */,
+				8FDE2DB11A768EA500FD4538 /* SecondViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDE2D841A7687A400FD4538 /* Main.storyboard in Resources */,
-				8FDE2D891A7687A400FD4538 /* LaunchScreen.xib in Resources */,
-				8FDE2D861A7687A400FD4538 /* Images.xcassets in Resources */,
+				8FDE2DB41A768EA500FD4538 /* Main.storyboard in Resources */,
+				8FDE2DB61A768EA500FD4538 /* Images.xcassets in Resources */,
+				8FDE2DB31A768EA500FD4538 /* LaunchScreen.xib in Resources */,
+				8FDE2DB71A768EA500FD4538 /* Info.plist in Resources */,
+				8FDE2DA21A768A1D00FD4538 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDE2D811A7687A400FD4538 /* SecondViewController.m in Sources */,
-				8FDE2D7B1A7687A400FD4538 /* AppDelegate.m in Sources */,
-				8FDE2D7E1A7687A400FD4538 /* FirstViewController.m in Sources */,
-				8FDE2D781A7687A400FD4538 /* main.m in Sources */,
+				8FDE2DB91A768EA500FD4538 /* SecondViewController.m in Sources */,
+				8FDE2DB21A768EA500FD4538 /* AppDelegate.m in Sources */,
+				8FDE2DB81A768EA500FD4538 /* main.m in Sources */,
+				8FDE2DB51A768EA500FD4538 /* FirstViewController.m in Sources */,
+				8FDE2DBC1A768F7600FD4538 /* LoginViewController.m in Sources */,
+				8FDE2DC11A7690AF00FD4538 /* WeiboClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,20 +276,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8FDE2D821A7687A400FD4538 /* Main.storyboard */ = {
+		8FDE2DA71A768EA500FD4538 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8FDE2D831A7687A400FD4538 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8FDE2D871A7687A400FD4538 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FDE2D881A7687A400FD4538 /* Base */,
+				8FDE2DA81A768EA500FD4538 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = weibo;
+			sourceTree = "<group>";
+		};
+		8FDE2DA91A768EA500FD4538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDE2DAA1A768EA500FD4538 /* Base */,
+			);
+			name = Main.storyboard;
+			path = weibo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
